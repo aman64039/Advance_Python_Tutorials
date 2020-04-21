@@ -1,0 +1,79 @@
+ { "firstname": "Sir Chandrasekhara Venkata",
+    "surname": "Raman",
+    "xborncountry": "India",
+    "ydiedcountry": "India",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Abdus",
+    "surname": "Salam",
+    "xborncountry": "India (now Pakistan)",
+    "ydiedcountry": "United Kingdom",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Subramanyan",
+    "surname": "Chandrasekhar",
+    "xborncountry": "India (now Pakistan)",
+    "ydiedcountry": "USA",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Ronald",
+    "surname": "Ross",
+    "xborncountry": "India",
+    "ydiedcountry": "United Kingdom",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Har Gobind",
+    "surname": "Khorana",
+    "xborncountry": "India",
+    "ydiedcountry": "USA",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Mother Teresa",
+    "xborncountry": "Ottoman Empire (now Republic of Macedonia)",
+    "ydiedcountry": "India",
+    "zgender": "female"
+  },
+  {
+    "firstname": "Rudyard",
+    "surname": "Kipling",
+    "xborncountry": "British India (now India)",
+    "ydiedcountry": "United Kingdom",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Rabindranath",
+    "surname": "Tagore",
+    "xborncountry": "India",
+    "ydiedcountry": "India",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Amartya",
+    "surname": "Sen",
+    "xborncountry": "India",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Muhammad",
+    "surname": "Yunus",
+    "xborncountry": "British India (now Bangladesh)",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Venkatraman",
+    "surname": "Ramakrishnan",
+    "xborncountry": "India",
+    "zgender": "male"
+  },
+  {
+    "firstname": "Kailash",
+    "surname": "Satyarthi",
+    "xborncountry": "India",
+    "zgender": "male"
+  }
+

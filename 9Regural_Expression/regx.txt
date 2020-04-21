@@ -1,0 +1,76 @@
+						Regular Expressions or REGX:
+						============================
+Its not just a python specific topic.This is something like HTTP request that exist in any programming language you can make requests using a programming language.
+So the same idea with Regular Expression.It is a concept that is seprate from Python but we has an implementation where we can write and use regular expression in our code
+
+Regular Expressions or REGX:- The way of describing a patterns within text or
+----------------------------   string.For better understanding lets have a look on Example.
+
+So lets says we are working with email address we ask a user to enter an email address and we have to send an confermation mail on the given email adress.
+So either send a request or send an email to that email address but before we do that we want to make sure that its even in the valid format.Why try and send an email to an address that is cleary wrong its dosen't contain a dot or @ symbol.Or instaed of email its consist of phone number.Why waste time and resources sending an email to that what we going to do is write python code to check does this match the format of email.So we have the format of the email
+(abc@abc.com,abc1.abc@bc.com,and so on ) some letter some symbol then domain name.
+If we are just checking that '@' is availble in email address its very much easy we have to just mention a condition that '@' in email. But what if '@' is at the end of the email address but our normal condition says its a fine.we have to implement a lots of bunch of if statement it will beacome more complecated because we have '.' in multiple places in an email.
+
+"""
+starts with 1 or more letter , number ,+,-,_,. then a single '@' sign the 1 or more letter , number or - the a single dot then ends with 1 or more letter , number ,- ,.
+"""
+This is just a standar validation in email for this we can use the regx ro regular expression.
+With the help of regx we can complete the validation of email in 2 or 3 lines and if statements cover some how 20 lines of code.
+
+Potential use case:
+------------------
+1.Credit Card number Validation
+2.Phone number Validating
+3.Advance find and Replace in txt
+4.Formating  text/output
+
+
+So lets start with regex without use of python or any programing language.
+just practice them on a tool on browser.It allwos you to live and test things out and on and test string and see how regx works.
+
+There are Tons of Regex symbols . I am just going to cover some import ones.
+
+After this i will try to make the proper seprate tutorial on REGEX.
+In this tutorial i am going to discuss only that syntax that most often used everytime.
+Rest you can go to mention link for cheatsheet of regex which consist of each and every thing about the regex: 
+https://www.rexegg.com/regex-quickstart.html
+
+We have a tons of regex broweser but i am mentioning one here which i like the most:
+https://pythex.org/
+
+lets have a look in first batch of regex:
+\d --- digit 0-9
+\w --- letter , digit , or underscore
+\s --- whitespace chracter
+\D --- not a digit
+\W --- not a word chracter
+\S --- not a whitespace Chracter
+. ---  any chracter except line break
+('\d\d', '\d \d', '\w \w', '\s', '\w\s\w', '\w', '\w', '\w\w', '\w\w\w\w\w',
+' \w\w\w\w\w ', '\s\w\w\w\w\w\s')
+
+
+#Another batch os regex is known as Quantifiers
+
++ --- one or more
+{3} --- Exactly x times.{3} - 3 times
+{3,5} --- Three to five times
+{4,} --- Four or more times
+*   --- Zero or more times
+? --- once or optional
+
+(a, \sa\w+, \w{4}, \d{3} \d{3}-\d{4}, \w{5,7}, \d{3,}, a*, a*b, a*b*c,aman , amana, aman?, \d{3} \d{3}-\d{4}, \d{3} \d{3}-?\d{4})
+
+
+[] --- match any instance if availbe
+
+
+(aeiou , [aeiou], [aeiou]{2}, [a-z], [A-Z], [a-zA-z], [0-9], [a-z0-9],
+[^k], [k], [^0-9])
+
+
+Anchors and Boundaries:
+
+^ --- start of string or line
+$ --- end of string or line
+\b --- word boundry
