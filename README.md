@@ -1,4 +1,4 @@
 # Advance_Python_Tutorials
-Some of the concepts of python language that a person who is working in python must have to know.
-Most of the interview questions belong to these concepts.
-Use this repository for learning purpose.
+This repository consist of some of the advance concepts of Python Programing Language. The fine tutorial are in more precise way. A person who is working in python or learning python language must have to be familiar with these concepts. This tutorial will also help you to crack interviews as questions are generally asked from these concepts.
+
+
